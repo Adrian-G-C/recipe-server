@@ -4,5 +4,15 @@
   "main": "index.js",
   "repository": "https://github.com/Adrian-G-C/recipe-server.git",
   "author": "Adrian <121769198+Adi-de-la-Adrian@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
