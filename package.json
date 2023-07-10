@@ -5,6 +5,7 @@
   "repository": "https://github.com/Adrian-G-C/recipe-server.git",
   "author": "Adrian <121769198+Adi-de-la-Adrian@users.noreply.github.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
       "start": "nodemon src/index.js"
   },
