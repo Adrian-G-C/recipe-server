@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const RecipesSchema = new mongoose.Schema({
+const recipeSchema = new mongoose.Schema({
     name: { type: String, required: true },
     ingredients: [{ type: String, required: true }],
     instructions: { type: String, required: true },
@@ -13,4 +13,4 @@ const RecipesSchema = new mongoose.Schema({
     },
 });
 
- export const RecipeModel = mongoose.model("recipes", UserSchema);
+ export const RecipeModel = mongoose.model("recipes", recipeSchema);
