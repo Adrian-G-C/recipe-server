@@ -19,4 +19,4 @@ mongoose.connect(
     }
 );
 
-app.listen(3002, () => console.log('Server Working!'));
+app.listen(3001, () => console.log('Server Working!'));
