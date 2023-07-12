@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 // app.use(cors());
 
-app.use("/auth", userRouter);
-app.use("/recipes", recipesRouter);
+app.use("/auth", cors(corsOptions), userRouter);
+app.use("/recipes", cors(corsOptions), recipesRouter);
 
 app.listen(PORT, () => console.log('Server Working!'));
